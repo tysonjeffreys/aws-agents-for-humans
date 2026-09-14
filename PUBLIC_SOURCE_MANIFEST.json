@@ -1,0 +1,168 @@
+{
+  "schema": "PUBLIC_APPLICATION_SOURCE_MANIFEST_V1",
+  "scope": "Reviewed local application subset; no proprietary runtime or Git history",
+  "files": [
+    {
+      "path": "agent/agent.py",
+      "sha256": "3bb5facd5487fdf8188581db1e5da7a69be141a11bcc1ea5e4550035ce9b0636",
+      "bytes": 14506,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "agent/aws_clients.py",
+      "sha256": "43cf488547c3b80f030da6fddec305992ede82ecf4707ac310f0b5d09bc87bcb",
+      "bytes": 4495,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "agent/requirements-agentcore.txt",
+      "sha256": "c42d130efee0205069c37a47bab48c805229378b51ef2cb027d32a47e9daf05d",
+      "bytes": 64,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/index.html",
+      "sha256": "00bc2f72130921fdb9d756b14f0c6b75b673f06f501b674cf0d67a5302210e86",
+      "bytes": 903,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/app.mjs",
+      "sha256": "9c7ac8142a00b7f571835cacc1ab91aede192ccc2c241a83f6cdd1ef9e4f0896",
+      "bytes": 5925,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/components.mjs",
+      "sha256": "f0c8a1a3f7942d751e6c21aec9315d127f302824b8faf2c83a6189bfc6f40c48",
+      "bytes": 21402,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/theme.css",
+      "sha256": "a0dde73ce0135e74a28ee1587172b6daca45b6a17c1dfcdf254619a6244ccdfa",
+      "bytes": 2010,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/surface.css",
+      "sha256": "c1dbd2b7fe3707caa3b87abf472947b200a96acfc39af000445bfd7d09248f1a",
+      "bytes": 14734,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/Manrope-OFL.txt",
+      "sha256": "e01b637272e0cbdfb240184dd98ea5cc671556d9894dae2668d92ab2c906787c",
+      "bytes": 4384,
+      "category": "PRE_EXISTING_THIRD_PARTY_FONT_AND_LICENSE"
+    },
+    {
+      "path": "judge-surface/bridge/bridge.mjs",
+      "sha256": "302c582f08e1994043853691ca9800f9a455d4e86ae6af51e004a0eb708797a8",
+      "bytes": 11229,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/bridge/security.mjs",
+      "sha256": "6c60525a3002b1a5cf6ccb22c43bf139b0e9875f0337a032df103a6597735e79",
+      "bytes": 7314,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/bridge/aws-port.mjs",
+      "sha256": "17d1d3c99e1e6d7519284492ae5bd6aef620607d8e5be5fa5a40abd768988bbd",
+      "bytes": 6311,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/bridge/assets.mjs",
+      "sha256": "d718d7f6e6e3dbf931d9a48ff253abedef7667cc4c9094ee38ec3b6afc4d69a0",
+      "bytes": 701,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/testing/announcement.test.mjs",
+      "sha256": "eaa5998545ca3fee4ba04c2ca20c150128c778a06e284e6c90094741fa16f1e4",
+      "bytes": 5384,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/testing/aws-port.test.mjs",
+      "sha256": "ffc009ab00fb8c93bee97217b15e8fbc7118265f07f136c4c1e7fe2be51bc805",
+      "bytes": 2850,
+      "category": "HACKATHON_APPLICATION_SOURCE"
+    },
+    {
+      "path": "judge-surface/public/manrope-latin.woff2",
+      "sha256": "e310b55a7fd9677f5e3555e6c6c4d064fa1f1d24393f0ddbe217cea12a8c432f",
+      "bytes": 24576,
+      "category": "PRE_EXISTING_THIRD_PARTY_FONT_AND_LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "39de4e00a098ddd1771e0ee01e4f42fa951a889d4f1d700ddd34cecb170dc172",
+      "bytes": 12588,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "SOURCE_BOUNDARY.md",
+      "sha256": "d97c43f97f8969895ce2a5159fc999682e0674c3473eb4ac5842c72a062f93a6",
+      "bytes": 4105,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "JUDGE_GUIDE.md",
+      "sha256": "6dcb9147f7c0b72e3c58af93b38c54f2ad3ff980ef8bb3c341592baa9b7eef78",
+      "bytes": 3545,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "ecd3f28bda138168b22da64bdee946385934231faeb89bc3bce8424ad384fb2c",
+      "bytes": 2188,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "aafa380fd2d37ecca1629708714f76a3d038148c5c9845a921cd91d4a4d7dee7",
+      "bytes": 4152,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "architecture/overview.txt",
+      "sha256": "3ab540d41f0f69eb58978bfc03f8fb35ced85eb7c7b82476df5f5dd3c2213acd",
+      "bytes": 871,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "package.json",
+      "sha256": "fdcfbed1ab71a455f5df01c96e9a2977859c9dbf2e5117c91fa0d66804c0882c",
+      "bytes": 279,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9d558f1e703f13f31381a7955481e3c33fa06ddb2b26aab91a88fff881255778",
+      "bytes": 127,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "architecture/overview.svg",
+      "sha256": "77017882e0785d7c11609ada21ced660fd9a5e49f970331e99f0e35457a366d3",
+      "bytes": 4237,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    },
+    {
+      "path": "architecture/overview.png",
+      "sha256": "815630d038e0f9823c3af1e1309b0cf51be124899e13efd41982ffc5a23ded32",
+      "bytes": 178727,
+      "category": "SAFE_PUBLIC_DOCUMENTATION_OR_PACKAGING"
+    }
+  ]
+}

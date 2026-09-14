@@ -1,0 +1,10 @@
+{
+  "name": "admissible-vendor-payment-exception-operator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test judge-surface/testing/announcement.test.mjs judge-surface/testing/aws-port.test.mjs"
+  }
+}

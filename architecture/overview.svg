@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1680" viewBox="0 0 1600 1680" role="img" aria-labelledby="title description">
+  <title id="title">Admissible Vendor &amp; Payment Exception Operator — architecture</title>
+  <desc id="description">Conceptual architecture. Finance Operator or Judge connects through the Hosted Demo, Secure Session Bridge, API Gateway with AWS_IAM, and Finance Workflow. The workflow connects to the AWS Agent Layer, a Strands Agent with Nova Lite hosted in AgentCore Runtime with Memory, and to Admissible, a pre-existing proprietary service. These connect to AgentCore Gateway with Policy, Exact Effect Execution, and the Synthetic Vendor Record.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#756984"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #2a273f; }
+      .heading { font-size: 44px; font-weight: 700; }
+      .subtitle { font-size: 26px; fill: #635b73; }
+      .node { fill: #ffffff; stroke: #b9b0c8; stroke-width: 2; }
+      .label { font-size: 32px; font-weight: 600; text-anchor: middle; }
+      .secondary { font-size: 28px; text-anchor: middle; fill: #635b73; }
+      .edge { fill: none; stroke: #756984; stroke-width: 3; stroke-linejoin: round; }
+      .branch-heading { font-size: 24px; font-weight: 600; fill: #635b73; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1680" fill="#faf9fd"/>
+  <text class="heading" x="80" y="91">Admissible Vendor &amp; Payment Exception Operator</text>
+  <text class="subtitle" x="80" y="139">AWS application architecture · Synthetic demo</text>
+
+  <g class="edge" marker-end="url(#arrow)">
+    <path d="M800 280 V319"/>
+    <path d="M800 404 V443"/>
+    <path d="M800 528 V567"/>
+    <path d="M800 652 V691"/>
+    <path d="M800 776 V816 H420 V865"/>
+    <path d="M800 816 H1180 V923"/>
+    <path d="M420 966 V1013"/>
+    <path d="M800 1160 V1195"/>
+    <path d="M800 1296 V1335"/>
+    <path d="M800 1420 V1459"/>
+  </g>
+  <path class="edge" d="M420 1114 V1160 H1180 V1056"/>
+
+  <rect x="520" y="200" width="560" height="80" rx="16" fill="#edf5f6" stroke="#a5c5cd" stroke-width="2"/>
+  <text class="label" x="800" y="252">Finance Operator / Judge</text>
+
+  <rect class="node" x="520" y="324" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="376">Hosted Demo</text>
+
+  <rect class="node" x="520" y="448" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="500">Secure Session Bridge</text>
+
+  <rect class="node" x="520" y="572" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="624">API Gateway (AWS_IAM)</text>
+
+  <rect class="node" x="520" y="696" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="748">Finance Workflow</text>
+
+  <text class="branch-heading" x="160" y="847">AWS Agent Layer</text>
+  <rect class="node" x="160" y="870" width="520" height="96" rx="16"/>
+  <text class="label" x="420" y="910">Strands Agent</text>
+  <text class="secondary" x="420" y="947">+ Nova Lite</text>
+
+  <rect class="node" x="160" y="1018" width="520" height="96" rx="16"/>
+  <text class="label" x="420" y="1058">AgentCore Runtime</text>
+  <text class="secondary" x="420" y="1095">+ Memory</text>
+
+  <rect x="920" y="928" width="520" height="128" rx="16" fill="#f3eef9" stroke="#b9b0c8" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="label" x="1180" y="978">Admissible</text>
+  <text class="secondary" x="1180" y="1019">Pre-existing proprietary service</text>
+
+  <rect class="node" x="520" y="1200" width="560" height="96" rx="16"/>
+  <text class="label" x="800" y="1240">AgentCore Gateway</text>
+  <text class="secondary" x="800" y="1277">+ Policy</text>
+
+  <rect class="node" x="520" y="1340" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="1392">Exact Effect Execution</text>
+
+  <rect class="node" x="520" y="1464" width="560" height="80" rx="16"/>
+  <text class="label" x="800" y="1516">Synthetic Vendor Record</text>
+
+  <text class="subtitle" x="800" y="1610" text-anchor="middle">Conceptual view · The agent is hosted inside AgentCore Runtime.</text>
+</svg>

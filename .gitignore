@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+runtime-config.json
+private/
+*.zip
+*.tar
+*.tar.gz
+cdk.out/
+dist/
+.DS_Store

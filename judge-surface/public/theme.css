@@ -1,0 +1,39 @@
+/* Exact values ported from admissible.io source 578910884ac4c353ffa611384be38fcd04e066be.
+   Sources: app/layout.js; components/site-frame.module.css (.pageLanding);
+   app/globals.css (mono); latest Fortified Fleet styles.css (semantic colors).
+   See G4_5C_THEME_AUDIT.md for provenance. The approved G4.5C refinement raises
+   foreground opacity and slightly darkens the strong surface for video legibility. */
+@font-face { font-family: Manrope; font-style: normal; font-weight: 200 800; font-display: swap; src: url('/assets/manrope-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope Fallback'; src: local(Arial); ascent-override: 103.31%; descent-override: 29.07%; line-gap-override: 0%; size-adjust: 103.19%; }
+:root {
+  color-scheme: dark;
+  --canvas: #2a273f;
+  --surface: rgba(39, 37, 58, 0.88);
+  --surface-strong: #201e32;
+  --text: #e9e7f8;
+  --text-secondary: rgba(233, 231, 248, 0.86);
+  --text-quiet: rgba(233, 231, 248, 0.80);
+  --title: #b072d1;
+  --accent: #c4a7e7;
+  --border: rgba(196, 167, 231, 0.18);
+  --border-control: rgba(196, 167, 231, 0.24);
+  --hover: rgba(196, 167, 231, 0.14);
+  --primary: linear-gradient(135deg, #c4a7e7, #eb6f92);
+  --primary-hover: linear-gradient(135deg, #b89cdd, #dd648a);
+  --verified: #9ccfd8;
+  --prevented: #eb6f92;
+  --attention: #f6c177;
+  --radius: 10px;
+  --radius-control: 10px;
+  --mono: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-family: Manrope, 'Manrope Fallback', sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--canvas); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+button, select, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid rgba(125, 211, 252, 0.88); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }

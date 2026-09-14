@@ -1,0 +1,35 @@
+Finance Operator / Judge
+          |
+          v
+     Hosted Demo
+          |
+          v
+ Secure Session Bridge
+          |
+          v
+ API Gateway (AWS_IAM)
+          |
+          v
+    Finance Workflow
+          |
+          +----------------------+
+          |                      |
+          v                      v
+   Strands Agent            Admissible
+   + Nova Lite          proprietary runtime
+          |                      |
+          v                      |
+ AgentCore Runtime               |
+   + Memory                      |
+          |                      |
+          +----------+-----------+
+                     |
+                     v
+          AgentCore Gateway
+              + Policy
+                     |
+                     v
+          Exact Effect Execution
+                     |
+                     v
+          Synthetic Vendor Record
